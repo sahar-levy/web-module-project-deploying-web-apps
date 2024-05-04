@@ -1,0 +1,49 @@
+/* form.css */
+.form {
+    display: flex;
+    justify-content: center; /* Align horizontally center */
+    align-items: center;     /* Align vertically center */
+    height: 100vh;           /* Full viewport height */
+    margin: 0 auto;          /* Removes any margin */
+}
+
+form {
+    width: 100%;             /* Full width of the container */
+    max-width: 400px;        /* Maximum width of the form */
+    padding: 20px;           /* Padding around the form */
+    box-sizing: border-box;  /* Border box sizing */
+}
+
+label {
+    display: block;          /* Makes each label a block, for better structure */
+    margin-bottom: 10px;     /* Adds space between the labels */
+}
+
+/* Specific styles for checkbox alignment */
+.checkbox-group {
+    margin-top: 10px; /* Adds a little space above the checkbox group */
+}
+
+.checkbox-group label {
+    display: flex;           /* Enables flexible box layout */
+    align-items: center;     /* Aligns checkbox and label text vertically */
+    margin-bottom: 5px;      /* Adds space between each checkbox label pair */
+}
+
+.checkbox-group input[type="checkbox"] {
+    margin-right: 10px; /* Adds space between the checkbox and the label text */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
